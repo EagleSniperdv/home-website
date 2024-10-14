@@ -29,3 +29,15 @@ gsap.from('.contact-us',{
         toggleActions:'play none none none'
     }
 });
+
+gsap.from('.de-box',{
+    opacity: 0,
+    y: 300,
+    duration: 1,
+    scrollTrigger: {
+        trigger:'.de-box',
+        start:'top 80%',
+        end:'top50%',
+        toggleActions:'play none none none'
+    }
+});
